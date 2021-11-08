@@ -1,0 +1,27 @@
+.nav-contact {
+    background-color: #14A85C;
+    width: 100% !important;
+}
+
+/* .toll, .call {
+    font-size: 20px !important;
+    color: white;
+} */
+
+.toll::before {
+    content: url(./img/icon_phone.png);
+    display: inline-block;
+    padding: 6px 10px 10px 10px;
+    position: relative;
+    top: 5px;
+
+}
+
+.call::before {
+    content: url(./img/icon_phone_2.png);
+    display: inline-block;
+    padding: 4px 7px 10px 50px;
+    position: relative;
+    top: 5px;
+}
+
