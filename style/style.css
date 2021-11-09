@@ -25,3 +25,54 @@
     top: 5px;
 }
 
+.px-1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #164916;
+}
+
+.header-offer {
+    background-color: #86EB8F;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+h1 {
+    margin: 60px 10px 10px 10px ;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 10px 0 0 0;
+}
+
+.btn-success::before {
+    content: url(./img/arrow_btn_logo.png);
+    padding: 0 10px 0 50px;
+}
+
+.btn-success {
+    background-color: #14A85C !important;
+    
+}
+
+.btn-icon {
+    position: relative;
+    top: 0px;
+    right: 205px;
+}
+
+.position-relative {
+    top: 6px;
+}
+
+.footer-header {
+    background-color: #14A85C;
+}
