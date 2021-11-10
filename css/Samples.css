@@ -1,0 +1,41 @@
+.header {
+    font-size: 10px;
+}
+
+.logo {
+    margin-left: 100px;
+    background: url(-Templates-/Samples/full-logo.png);
+}
+
+.name {
+    text-align: center;
+    height: 65px;
+}
+
+h4 {
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    line-height: 60px !important;
+}
+
+li a:nth-child(1) {
+    color: black;
+}
+
+i {
+    color: black !important;
+}
+
+@media only screen and (min-width: 601px) {
+
+    nav,
+    nav .nav-wrapper i,
+    nav a.sidenav-trigger,
+    nav a.sidenav-trigger i {
+        line-height: 80px !important;
+    }
+}
+
+.row {
+    margin-bottom: 0px !important;
+}
