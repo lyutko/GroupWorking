@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Materialize Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Fontawesome Icons -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
@@ -30,6 +33,9 @@
                 </div>
                 <div class="m-header-top__column">
                     <span class="m-header-top__text">Join us:</span>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
                 </div>
             </div>
         </div>
@@ -42,7 +48,7 @@
                     <div class="nav-wrapper">
                       <a href="#!" class="brand-logo">
                         <picture>
-                            <source media="(min-width: 1200px)"
+                            <source media="(min-width: 1210px)"
                                     srcset="img/logo.png">
                             <source media="(min-width: 400px)" 
                                     srcset="img/logo-mobile.png">
@@ -128,7 +134,7 @@
 
                     <div class="row form-group">
                       <div class="row col s12">
-                        <label for="first_name" class="label-item col s3">First Name<span class="required">&#9913;</span></label>
+                        <label for="first_name" class="label-item col s8 m3">First Name<span class="required">&#9913;</span><span class="error"><i class="fas fa-question"></i></span></label>
                         <input id="first_name" name="first_name" type="text" class="validate input-item col s12 l9">
                       </div>
                     </div>
@@ -137,7 +143,7 @@
 
                     <div class="row form-group">
                       <div class="row col s12">
-                        <label for="last_name" class="label-item col s3">Last Name<span class="required">&#9913;</span></label>
+                        <label for="last_name" class="label-item col s8 m3">Last Name<span class="required">&#9913;</span><span class="error"><i class="fas fa-question"></i></span></label>
                         <input id="last_name" name="last_name" type="text" class="validate input-item col s12 l9">
                       </div>
                     </div>
@@ -146,7 +152,7 @@
 
                     <div class="row form-group">
                       <div class="row col s12">
-                        <label for="email" class="label-item col s3">Email<span class="required">&#9913;</span></label>
+                        <label for="email" class="label-item col s8 m3">Email<span class="required">&#9913;</span><span class="error"><i class="fas fa-question"></i></span></label>
                         <input id="email" name="email" type="email" class="validate input-item col s12 l9">
                       </div>
                     </div>
@@ -155,9 +161,9 @@
 
                     <div class="row form-group">
                       <div class="row col s12">
-                        <label for="country-code" class="label-item col s3">Country code<span class="required">&#9913;</span></label>
-                        <select id="country-code" name="country-code" class="input-item col s12 l9">
-                          <option value="" disabled selected>dddddddd</option>
+                        <label for="country-code" class="label-item col s8 m3">Country code<span class="required">&#9913;</span><span class="error"><i class="fas fa-question active"></i></span></label>
+                        <select id="country-code" name="country-code" class="input-item col s12 l9" >
+                          <option value="" disabled selected>USA-1</option>
                           <option value="1">Option 1</option>
                           <option value="2">Option 2</option>
                           <option value="3">Option 3</option>
@@ -169,7 +175,7 @@
 
                     <div class="row form-group">
                       <div class="row col s12">
-                        <label for="phone" class="label-item col s3">Phone</label>
+                        <label for="phone" class="label-item col s8 m3">Phone<span class="error"><i class="fas fa-question"></i></span></label>
                         <input id="phone" name="phone" type="tel" class="validate input-item col s12 l9">
                       </div>
                     </div>
