@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .header {
     font-size: 10px;
 }
@@ -16,14 +20,19 @@ h4 {
     margin-bottom: 0px !important;
     margin-top: 0px !important;
     line-height: 60px !important;
+    color: white;
 }
 
 li a:nth-child(1) {
     color: black;
 }
 
-i {
-    color: black !important;
+.margin {
+    margin: 30px;
+}
+
+.info-block {
+    margin-top: 20px;
 }
 
 @media only screen and (min-width: 601px) {
@@ -38,4 +47,47 @@ i {
 
 .row {
     margin-bottom: 0px !important;
+}
+
+.flex {
+    display: flex;
+}
+
+.img {
+    margin-left: 75px;
+}
+
+.actives {
+    color: red !important;
+    text-decoration: underline;
+}
+
+li {
+    text-decoration: none !important;
+}
+
+p {
+    color: white;
+}
+
+img {
+    object-fit: contain;
+}
+
+tr:nth-child(2n+1) {
+    background-color: rgb(214, 212, 212);
+}
+
+@media (max-width: 601px) {
+    .test {
+        background-color: orange;
+    }
+
+    .border-top {
+        border-top: 2px dashed black;
+    }
+
+    tr:nth-child(2n+1) {
+        background-color: rgb(214, 212, 212);
+    }
 }
