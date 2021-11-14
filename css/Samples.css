@@ -78,8 +78,12 @@ tr:nth-child(2n+1) {
     background-color: rgb(214, 212, 212);
 }
 
+.grey-bg {
+    background-color: rgb(56, 56, 56);
+}
+
 @media (max-width: 601px) {
-    .test {
+    .orange-bg {
         background-color: orange;
     }
 
@@ -90,4 +94,16 @@ tr:nth-child(2n+1) {
     tr:nth-child(2n+1) {
         background-color: rgb(214, 212, 212);
     }
+
+    .green-bg {
+        background-color: rgba(50, 160, 50, 0.856);
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
+.join-us {
+    line-height: 70px;
 }
