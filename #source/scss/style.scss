@@ -1,7 +1,7 @@
 @import "header.scss";
 @import "footer.scss";
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;400;600;700&display=swap');
 
 *,
 *::before,
@@ -28,6 +28,10 @@ body {
     vertical-align: super;
 }
 
+.line-height {
+    line-height: 33px !important;
+}
+
 .error .fa-question {
     width: 20px;
     height: 20px;
@@ -36,14 +40,51 @@ body {
     border-radius: 50%;
     text-align: center;
     line-height: 20px;
-    position: absolute;
-    left: 162px;
-    top: 12px;
     display: none;
+    position: absolute;
+    left: 230px;
+    top: 12px;
 }
 
 .active {
-    display: block !important;
+    display: inline-block !important;
+}
+
+.form-group_margin {
+    margin: 25px 0px !important;
+
+    label {
+        padding: 0 !important;
+    }
+}
+
+.green-btn {
+    width: 140px !important;
+    height: 44px !important;
+    background: transparent;
+    border: 2px solid #14a85c;
+    transition: background 0.4s ease-out;
+
+    span {
+        font-size: 14px;
+        line-height: 42px;
+        color: #14a85c;
+        text-transform: none;
+    }
+
+    &:hover,
+    .btn-large:hover,
+    .btn-small:hover {
+        background-color: #14a85c;
+
+        span {
+            color: #fff;
+        }
+
+        .fa-plus {
+            color: #fff;
+        }
+    }
 }
 
 /* Main */
@@ -90,13 +131,17 @@ body {
     width: 100%;
 }
 
+/* LABEL */
+
 label.label-item {
     font-size: 14px;
     color: #000;
     position: relative;
     cursor: pointer;
-    line-height: 33px;
+    line-height: 41px;
 }
+
+/* INPUTS */
 
 .input-item,
 select.input-item {
@@ -147,12 +192,15 @@ textarea.materialize-textarea:focus:not([readonly]) {
 
 .row {
     margin: 0;
+    padding: 0;
 }
 
 .form-group {
     margin-bottom: 10px;
     width: 100%;
 }
+
+/* INPUT SELECT */
 
 select {
     display: block;
@@ -164,9 +212,219 @@ select {
     }
 }
 
+/* TOTAL */
+
+.form-group .total {
+    font-size: 14px;
+    color: #e84c3d;
+    padding-left: 8px;
+    line-height: 33px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+/* CHECKBOX */
+
+.checkbox label:first-child {
+    line-height: 44px !important;
+    width: 34%;
+}
+
+.checkbox label:last-child {
+    padding: 13px 0;
+    width: 66%;
+}
+
+.checkbox__text,
+.radio-btns__text {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #000;
+    line-height: 20px;
+}
+
+/* Radio buttons */
+
+.radio-btns .input-item {
+    padding-top: 25px;
+}
+
+.radio-btns [type="radio"]:checked+span:after,
+.radio-btns [type="radio"].with-gap:checked+span:after {
+    background-color: rgb(46, 46, 46);
+}
+
+.radio-btns [type="radio"]:checked+span:after,
+.radio-btns [type="radio"].with-gap:checked+span:before,
+.radio-btns [type="radio"].with-gap:checked+span:after {
+    border: 2px solid rgb(46, 46, 46);
+}
+
+.radio-btns .input-item label:first-child {
+    margin-right: 22px;
+}
+
+/* Textarea */
+.textarea .input-item {
+    max-height: 133px;
+    height: 100%;
+    padding: 10px 15px;
+    // overflow-y: scroll;
+}
+
+/* File */
+
+.z-depth-1,
+nav,
+.card-panel,
+.card,
+.toast,
+.btn,
+.btn-large,
+.btn-small,
+.btn-floating,
+.dropdown-content,
+.collapsible,
+.sidenav {
+    box-shadow: none;
+}
+
+.z-depth-1-half,
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover,
+.btn-floating:hover {
+    box-shadow: none;
+}
+
+.file .line-height {
+    line-height: 25px !important;
+}
+
+/* Agreement */
+.agreement {
+    margin-bottom: 0 !important;
+}
+
+.agreement label {
+    padding: 0 !important;
+}
+
+/* Discount */
+.discount {
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+}
+
+.discount .input-item {
+    max-width: 351px !important;
+    width: 100%;
+}
+
+.writer .btn.green-btn,
+.discount .btn.green-btn {
+    margin-left: 23px;
+
+    @media (max-width: 620px) {
+        margin-left: 3px;
+    }
+}
+
+.writer input[type=button],
+.discount input[type=button] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 52%;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+/* Writer */
+
+.writer.row .col.offset-s3 {
+    margin-left: 29%;
+}
+
+.writer .btn.green-btn {
+    margin-top: 10px;
+}
+
+.writer .fa-plus {
+    color: #14a85c;
+    font-size: 13px;
+    transition: 0.4s ease-out;
+}
+
+/* Grand */
+.grand.row .col {
+    padding: 0;
+}
+
+.grand .grand__title {
+    max-width: 497px;
+    width: 100%;
+    height: 44px;
+    border: 2px solid #14a85c;
+    line-height: 44px;
+    font-size: 18px;
+    color: #4e4e4e;
+    padding-left: 12px !important;
+    margin-top: 25px;
+    margin-bottom: 31px;
+}
+
+.grand .grand__total {
+    color: #e84c3d;
+}
+
+.grand__btn {
+    max-width: 269px;
+    width: 100%;
+    height: 69px;
+    line-height: 69px;
+    border: solid 1px #fff;
+    background: #e84c3d;
+    margin-bottom: 31px;
+    font-size: 18.5px;
+    font-weight: 700;
+    color: #fff;
+    transition: background 0.4s ease-out;
+}
+
+.btn.grand__btn:hover,
+.btn-large:hover,
+.btn-small:hover {
+    background: #fff;
+    color: #e84c3d;
+    border: solid 1px #e84c3d;
+}
 
 
-@media screen and (max-width: 860px) {
+
+@media (max-width: 1006px) {
+    .checkbox label:last-child {
+        padding-left: 10px;
+    }
+
+    .checkbox.form-group {
+        margin-bottom: 0px;
+    }
+
+    .checkbox .error .fa-question {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 890px) {
 
     .input-item,
     select.input-item {
@@ -174,16 +432,19 @@ select {
         width: 100%;
     }
 
-    .error .fa-question {
-        left: 125px;
-    }
-
     .form-group {
         margin-bottom: 0px;
     }
+
+    .error .fa-question {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        margin-left: 5px;
+    }
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .m-main {
         &__title {
             font-size: 30px;

@@ -15,44 +15,7 @@
         display: flex;
         align-items: center;
 
-        .fab.fa-pinterest-p,
-        .fab.fa-twitter,
-        .fab.fa-facebook-f {
-            width: 30px;
-            height: 30px;
-            margin: 0 7px;
-            color: #fff;
-            text-align: center;
-            line-height: 30px;
-            transition: 0.3s linear;
-        }
 
-        .fab.fa-pinterest-p {
-            background: #E74B3C;
-            border: 1px solid #a7352a;
-
-            &:hover {
-                background: #d64639;
-            }
-        }
-
-        .fab.fa-twitter {
-            background: #28C2FE;
-            border: 1px solid #1f80a7;
-
-            &:hover {
-                background: #26a9dd;
-            }
-        }
-
-        .fab.fa-facebook-f {
-            background: #4A6195;
-            border: 1px solid #38486d;
-
-            &:hover {
-                background: #465a8a;
-            }
-        }
     }
 
     &__img {
@@ -78,6 +41,45 @@
         }
     }
 
+}
+
+.fab.fa-pinterest-p,
+.fab.fa-twitter,
+.fab.fa-facebook-f {
+    width: 30px;
+    height: 30px;
+    margin: 0 7px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    transition: 0.3s linear;
+}
+
+.fab.fa-pinterest-p {
+    background: #E74B3C;
+    border: 1px solid #a7352a;
+
+    &:hover {
+        background: #d64639;
+    }
+}
+
+.fab.fa-twitter {
+    background: #28C2FE;
+    border: 1px solid #1f80a7;
+
+    &:hover {
+        background: #26a9dd;
+    }
+}
+
+.fab.fa-facebook-f {
+    background: #4A6195;
+    border: 1px solid #38486d;
+
+    &:hover {
+        background: #465a8a;
+    }
 }
 
 .m-header-middle {
