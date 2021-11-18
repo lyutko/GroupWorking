@@ -3,11 +3,6 @@
     width: 100% !important;
 }
 
-/* .toll, .call {
-    font-size: 20px !important;
-    color: white;
-} */
-
 .toll::before {
     content: url(./img/icon_phone.png);
     display: inline-block;
@@ -35,25 +30,41 @@
     background-color: #86EB8F;
 }
 
-h1, h2 {
+h1 {
     text-transform: uppercase;
     color: #fff;
     font-size: 50px;
     font-weight: 700;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     text-align: center;
 }
 
-h1 {
-    margin: 60px 10px 10px 10px ;
-}
 
 h2 {
-    font-size: 40px;
-    margin: 10px 0 0 0;
+ color: #003400;
 }
 
-.btn-success::before {
+.header-subtitle {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 38px;
+    color: white;
+}
+
+.fs-5 {
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.subtitle-offer {
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    top: 60px;
+    right: 140px;
+}
+
+.bth-chat::before {
     content: url(./img/arrow_btn_logo.png);
     padding: 0 10px 0 50px;
 }
@@ -69,10 +80,78 @@ h2 {
     right: 205px;
 }
 
-.position-relative {
-    top: 6px;
+.block-offer {
+    position: relative;
+    bottom: 125px;
 }
+
+.header-logo-img {
+
+    bottom: 103px;
+}
+
+
 
 .footer-header {
     background-color: #14A85C;
 }
+
+.ms-5 {
+    margin-left: 175px !important;
+}
+
+.header-offer1 {
+    background-color: #86EB8F;
+}
+
+.header-block-img {
+    margin-bottom: -80px;
+}
+
+.div-icon {
+    background-color: #86EB8F;
+}
+
+.div-grei-icon {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 15px;
+    text-align: center;
+    color: #4C454A;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.offer-sub-title {
+    top: 285px;
+    left: 785px;
+}
+
+.container2 {
+    color: #4E494F;
+    font-size: 16px;
+}
+
+.h2-container3 {
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color: #003400;
+}
+
+.p-container3 {
+    text-align: justify;
+}
+
+.container4 {
+    background-color: #86EB8F;
+}
+
+.p-container4 {
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+
