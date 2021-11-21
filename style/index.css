@@ -1,0 +1,225 @@
+.nav-contact {
+    background-color: #14A85C;
+    width: 100% !important;
+}
+
+.toll::before {
+    content: url(./img/icon_phone.png);
+    display: inline-block;
+    padding: 6px 10px 10px 10px;
+    position: relative;
+    top: 5px;
+
+}
+
+.call::before {
+    content: url(./img/icon_phone_2.png);
+    display: inline-block;
+    padding: 4px 7px 10px 50px;
+    position: relative;
+    top: 5px;
+}
+
+.nav-link {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #164916;
+}
+
+.header-offer {
+    background-color: #86EB8F;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-left: 120px !important;
+}
+
+h2 {
+ color: #003400;
+}
+
+.offer-subtitle {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    position: relative;
+    top: 140px;
+    left: 0px;
+}
+
+.offer-h1 {
+    top: 1px;
+    left: 1px;
+}
+
+.offer-p {
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.subtitle-offer {
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    top: 60px;
+    right: 140px;
+}
+
+.btn-success {
+    background-color: #14A85C !important;
+    
+}
+
+.offer-sub-title {
+    top: 285px;
+    left: 785px;
+}
+
+.light-lamp {
+    top: 40px;
+    right: 230px;
+}
+
+.books-lump {
+    bottom: -5px;
+    right: 60px;
+}
+
+.boy-noot {
+    bottom: -4px;
+    left: 0px;
+    z-index: 1;
+}
+
+.offer-btn-order {
+    display: inline-block;
+    padding: 20px 70px 20px 70px !important;
+    position: relative;
+    top: 300px;
+    left: -15px;
+    z-index: 1;
+}
+
+.btn-relative-order {
+    margin: 10px 0px 10px 150px;
+    padding: 5px 40px 5px 40px !important;
+}
+
+.head-foot-p {
+    margin: 15px 0px 15px 0px;
+    padding: 0px 0px 0px 0px !important;
+}
+
+.footer-header {
+    background-color: #14A85C;
+}
+
+.container2 {
+    color: #4E494F;
+    font-size: 16px;
+}
+
+.div-icon {
+    background-color: #86EB8F;
+}
+
+.div-grei-icon {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 15px;
+    text-align: center;
+    color: #4C454A;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.h2-container3 {
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color: #003400;
+}
+
+.p-container3 {
+    text-align: justify;
+}
+
+.container4 {
+    background-color: #86EB8F;
+}
+
+.p-container4 {
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.cont5-text {
+    text-align: justify;
+}
+
+.p-container5 {
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color: #003400;
+}
+
+.cont5-text {
+    list-style-image: url(./img/arrow-list.png)
+}
+
+footer {
+    background-color: #14A85C;
+
+}
+
+.silver {
+    background-color: #4E4E4E;
+}
+
+.footer-line {
+    position: absolute;
+    top: -110px;
+    left: -210px;
+}
+
+.p-img-arrow {
+    text-align: justify;
+}
+
+.p-img-arrow::after {
+    content: url(./img/footer_arrow1.png);
+    position: absolute;
+    bottom: -25px;
+    right: 20px;
+}
+
+.foot-logo {
+    background-color: #CCD3DD;
+}
+
+.foot-nav {
+    position: relative;
+    z-index: 1;
+}
+
+.foot-copyright {
+    margin: 0 auto;
+    color: white;
+}
+
+.btn-position {
+    position: relative !important;
+    z-index: 1;
+}

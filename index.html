@@ -7,11 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
     <title>EssaysService</title>
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/index.css">
 </head>
 <body>
     <!-- Перший блок -->
-    <header>
+    <header id="header">
         <div class="nav-contact">
             <div class="container d-flex justify-content-between">
                 <div class="d-flex">
@@ -21,9 +21,9 @@
                 
                 <div class=" d-flex align-items-center">
                     <span class="text-white me-2">Join us: </span>
-                    <a href="#"><img src="./style/img/p-icon.png" alt="pinterest"></a>
-                    <a href="#"><img src="./style/img/tw_icon.png" alt="twitter"></a>
-                    <a href="#"><img src="./style/img/fb-icon.png" alt="facebook"></a>
+                    <a href="https://www.pinterest.com/"><img src="./style/img/p-icon.png" alt="pinterest"></a>
+                    <a href="https://twitter.com/?lang=ru/"><img src="./style/img/tw_icon.png" alt="twitter"></a>
+                    <a href="https://uk-ua.facebook.com/"><img src="./style/img/fb-icon.png" alt="facebook"></a>
                 </div>     
             </div>
         </div>
@@ -31,11 +31,14 @@
         <nav>
             <nav class="navbar navbar-light bg-light">
                 <div class="container">
+                    <div class="col-3">
                         <a class="navbar-brand" href="./index.html">
-                            <img src="./style/img/logo.gif" alt="logo" >
+                            <img class="" src="./style/img/logo.gif" alt="logo" >
                         </a>
+                    </div>
+                       
                   
-                        <ul class="nav">
+                        <ul class="nav col-9">
                             <li class="nav-item">
                                 <a class="nav-link link-danger link-danger px-1" href="#">Home</a>
                             </li>
@@ -77,43 +80,54 @@
 
         <div class="header-offer">
             <div class="container">
-                <div class="d-flex pt-5">
-                    <button type="button" class="btn btn-success border border-2 btn-lg fs-5 py-2">
-                        <!-- <i class="bi bi-chat-right-dots"></i> -->
-                        <i class="bi bi-chat-square-text fs-3"></i>
-                        <i class="bi bi-chevron-right fs-5 mx-2"></i>LIVE CHAT
-                    </button>
-                    <h1 class="ms-5">custom writing service</h1>
-                    
+                <p class="offer-subtitle">THE KEY TO SUCCESS</p>
+                <div class="pt-5 position-relative">
+                    <div class="offer-h1 d-flex position-absolute">
+
+                        <button type="button" class="btn btn-success border border-2 btn-lg fs-5 py-2">
+                            <i class="bi bi-chat-square-text fs-3"></i>
+                            <i class="bi bi-chevron-right fs-5 mx-2"></i>LIVE CHAT
+                        </button>
+                        <h1 class="">custom writing service</h1>
+
+                    </div>
                 </div>
 
-                <div class="offer-sub-title text-left position-absolute">
-                    <p class="header-subtitle">the key to success</p>
-                    
-                    <p class="text-left">you are at right place!</p>
-                    <p>EssayService.com is a top quality <br>
-                    writing service</p>
+                <div class="d-flex position-relative">
+
+                    <div class="col-3">
+                        <img class="boy-noot position-absolute" src="./style/img/img_boy_logo.png" alt="img" >
+                    </div>
+
+                    <div class="offer-p col-3 d-flex flex-column justify-content-center ps-4">
+                        <p class="fs-4">YOU ARE AT RIGHT PLACE! </p>
+                        <p class="fs-5">EssayService.com is a top quality writing service</p>
+                    </div>
+
+                    <div class="col-3 ">
+                        <button type="button" class="offer-btn-order btn btn-danger border border-2 btn-lg fs-5 py-2">
+                            ORDER NOW
+                        </button>
+                    </div>
+
+                    <div class="col-1">
+                        <img class="light-lamp position-absolute" src="./style/img/light_logo.png" alt="img" >
+                    </div>
+
+                    <div class="col-2">
+                        <img class="books-lump position-relative" src="./style/img/img_books_lamp.png" alt="img" >
+                    </div>
+
                 </div>
 
-                <div class="container">
-                    
-                        <img class="rounded float-start" src="./style/img/img_boy_logo.png" alt="img" >
-
-
-                        <img class="text-center" src="./style/img/light_logo.png" alt="img" >
-
-
-                        <img class="rounded float-end" src="./style/img/img_books_lamp.png" alt="img" >
-
-                </div>
             </div>   
         </div>
 
 
         <div class="footer-header">
             <div class="container d-flex">
-                <p class="my-4 text-white fs-5 pt-2">Special Offer: <strong>Get limited discounts </strong>on the first order</p>
-                <button type="button" class="ms-5 btn btn-success border border-2 btn-lg py-1 my-3">the list of discounts</button>
+                <p class="head-foot-p text-white fs-5">Special Offer: <strong>Get limited discounts </strong>on the first order</p>
+                <button type="button" class="btn-relative-order position-relative btn btn-success border border-2 btn-lg">the list of discounts</button>
             </div>
         </div>
 
@@ -171,8 +185,8 @@
 
     </div> 
     
-    <!-- Третій блок -->
     
+    <!-- Третій блок -->
     <div class="container3 container">
         <div>
             <p class="h2-container3 mt-5 mb-0">Companynae.com has come forward</p>
@@ -202,8 +216,8 @@
 
     </div>
 
+    
     <!-- Четвертий блок -->
-
     <div class="container4">
 
         <div class="container">
@@ -221,40 +235,111 @@
     </div>
     
     <!-- П'ятий блок -->
-
     <div class="container5 container">
-        <div>
-            <p class="h2-container3 mt-5 mb-0">Companynae.com has come forward</p>
-            <p class="h2-container3 mb-5 mt-0">to provide you with high quality papers{h1}</p>
-        </div>
-       <div class="p-container3 d-flex mb-3">
-           <div class="me-3">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fuga nihil modi quos? Reiciendis fuga possimus fugit consectetur ut atque voluptates sunt laboriosam doloribus, dolorem iure dicta eligendi quos ea! Commodi nihil quos provident magnam labore facere, aspernatur necessitatibus dolore et culpa laudantium adipisci, eaque sunt iusto rerum tempora? Cupiditate et neque odio necessitatibus, earum voluptates aperiam dolor tempora iste, voluptatem id obcaecati eos iusto enim distinctio est, vero totam labore. Doloribus cupiditate eum sequi!
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis reprehenderit, voluptatibus debitis fugiat laudantium quos repudiandae cupiditate consequatur maxime nesciunt veritatis omnis porro veniam a deserunt nulla sequi tenetur, magni dicta accusantium. Natus ullam similique aspernatur minus tempora consequatur esse cumque hic. Non quaerat impedit ipsam sunt natus est nam?
-                </p>
+
+       <div class="d-flex mb-3">
+           <div class="col-6 me-4 d-flex flex-column ">
+               <div>
+                    <p class="p-container5 mt-5 mb-0">{h2}Ordering a Paper</p>
+                    <p class="p-container5 mb-3 mt-0">at Company.com Is Worth It</p>
+                    
+                    <div>
+                        <ul class="cont5-text m-0 mb-3 ps-0">
+                            <li class="ps-1">Lorem ipsum dolor sit amet dolor sit amet, consectetur adipisicing elit. Aperiam, nam.</li>
+                            <li class="ps-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, sit .</li>
+                            <li class="ps-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est architecto amet explicabo nemo culpa repellat omnis repudiandae praesentium illo ipsum?</li>
+                            <li class="ps-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, sit.</li>
+                            <li class="ps-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quibusdam quis omnis odit minus cumque pariatur non quas explicabo totam.</li>
+                            <li class="ps-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, sit.</li>
+                            <li class="ps-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum reprehenderit veniam quod cupiditate, quia molestias possimus et necessitatibus adipisci ullam perspiciatis perferendis quibusdam aperiam rerum, placeat autem soluta accusantium culpa!</li>
+                            <li class="ps-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, sit.</li>
+                        </ul>
+                    </div>
+               </div>
+               
+
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn-position btn btn-success border border-2 btn-lg fs-5 my-3 py-2">
+                        <i class="bi bi-chevron-right fs-4 mx-1"></i>READ MORE
+                    </button>
+                </div>
+                
            </div>
 
-           <div  class="ms-3">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fuga nihil modi quos? Reiciendis fuga possimus fugit consectetur ut atque voluptates sunt laboriosam doloribus, dolorem iure dicta eligendi quos ea! Commodi nihil quos provident magnam labore facere, aspernatur necessitatibus dolore et culpa laudantium adipisci, eaque sunt iusto rerum tempora? Cupiditate et neque odio necessitatibus, earum voluptates aperiam dolor tempora iste, voluptatem id obcaecati eos iusto enim distinctio est, vero totam labore. Doloribus cupiditate eum sequi!
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis reprehenderit, voluptatibus debitis fugiat laudantium quos repudiandae cupiditate consequatur maxime nesciunt veritatis omnis porro veniam a deserunt nulla sequi tenetur, magni dicta accusantium. Natus ullam similique aspernatur minus tempora consequatur esse cumque hic. Non quaerat impedit ipsam sunt natus est nam?
-                </p>
+           <div  class="col-6 ms-4 d-flex flex-column ">
+               <div>
+                    <p class="p-container5 mt-5 mb-0">{h2}Ordering a Paper</p>
+                    <p class="p-container5 mb-3 mt-0">at Company.com Is Worth It</p>
+                    <div>
+                        <p class="cont5-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, vero! Commodi quis placeat quia adipisci harum tenetur maxime eum. Est repellat sed eveniet similique aliquid Est repellat sed eveniet similique aliquid minima, harum excepturi architecto consequuntur, quas veritatis asperiores odio ab blanditiis rem ratione praesentium tempore perspiciatis nihil placeat. Impedit debitis beatae possimus, enim excepturi, vel saepe at harum accusamus libero, id quod! Expedita dignissimos inventore obcaecati, eaque amet eligendi ipsa distinctio, hic laborum asperiores, adipisci laboriosam tenetur aspernatur placeat. Hic exercitationem perferendis, mollitia voluptatibus.Debitis tenetur dolorem assumenda, facilis velit quia consequuntur quo quam pariatur quaerat ad sit inventore sapiente sed ullam molestias dolorem quas facilis eum dolores quae eaque autem odit numquam ut nulla! Velit nobis repellendus nam nihil culpa et. Id culpa aut atque cupiditate inventore sed sint? Debitis tenetur dolorem assumenda, facilis velit quia.
+                        </p>
+                    </div>
+               </div>
+                
+                
+                <div class="d-flex flex-row justify-content-center">
+                    <button type="button" class="btn btn-success border border-2 btn-lg fs-5 my-3 py-2">
+                        <i class="bi bi-chevron-right fs-4 mx-1"></i>READ MORE
+                    </button>
+                </div>
+                
            </div>
-           
+
+            
        </div>
 
 
+
+
     </div>
+    
     <!-- Шостий блок -->
+    <footer>
 
-    <div class="container6 container">
+        <div class="container">
+            <div class="d-flex py-4">
+                <div class="col-3 ms-4">
+                    <div class="position-relative">
+                        <img class="footer-line" src="./style/img/footer-bee-line-1.png" alt="line">
+                    </div>
+                    <div class="position-relative">
+                        <a href="#header">
+                            <img class="foot-logo border border-1 px-5 py-3" src="./style/img/footer_logo-copy.png" alt="logo-footer">
+                        </a>
+                    </div>
+                    <div class="ms-2 p-2 text-white ">
+                        <p class="m-0 ms-3">Call now: +1-044-147-0235</p>
+                        <p class="m-0">Email: companyname@gmail.com</p>
+                        <p class="m-0">Email: companyname@gmail.com</p>
+                    </div>
+                </div>
+                
+                <div class="col-9 ms-4">
+                    <p class="position-relative p-img-arrow border border-2 text-white p-4 m-0">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis impedit assumenda, ex commodi iusto voluptates. Dignissimos quo corporis consequatur rerum perferendis aut, nobis doloremque porro tempore error repudiandae? Esse officiis ea, corporis nulla, autem voluptas exercitationem, quis incidunt reprehenderit tenetur quo quisquam veniam dolorum. Sed tenetur laboriosam beatae iure, natus ea facere quaerat id amet aut distinctio ducimus eligendi a modi minima nemo nisi alias veritatis commodi consequuntur aperiam. Optio a adipisci commodi atque voluptates.
+                    </p>
+                </div>
+            </div>
+        </div>
 
-    </div>
+
+
+        <div class="silver">
+
+                <div class="container">
+                    <div class="foot-nav d-flex align-items-center py-3">
+                        <span class="text-white me-5">Join us: </span>
+                        <a href="https://www.pinterest.com/"><img src="./style/img/p-icon.png" alt=""></a>
+                        <a href="https://twitter.com/?lang=ru/"><img src="./style/img/tw_icon.png" alt="twitter"></a>
+                        <a href="https://uk-ua.facebook.com/"><img src="./style/img/fb-icon.png" alt="facebook"></a>
+                        <span class="foot-copyright">Copyright © 2016 CompanyName.com</span>
+                    </div>
+                </div>
+
+        </div>
+
+    </footer>
 
 
 
