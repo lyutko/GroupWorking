@@ -18,9 +18,7 @@
 
     }
 
-    &__img {
-        margin-right: 7px;
-    }
+
 
     &__text {
         display: inline-block;
@@ -41,6 +39,19 @@
         }
     }
 
+}
+
+.fa-phone,
+.fa-phone-volume {
+    margin-right: 7px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.fa-phone-volume {
+    margin-right: 7px;
+    color: #fff;
+    font-size: 25px;
 }
 
 .fab.fa-pinterest-p,

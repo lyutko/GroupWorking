@@ -53,10 +53,24 @@
         color: #fff;
         padding: 30px 25px 25px 25px;
         border: 2px solid #eaedf2;
+        position: relative;
     }
 }
 
-
+.fa-chevron-down {
+    width: 32px;
+    height: 32px;
+    background: #e84c3d;
+    color: #fff;
+    position: absolute;
+    bottom: -16px;
+    right: 30px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    line-height: 32px;
+    border: 1px solid #fff;
+}
 
 
 .footer-bottom {

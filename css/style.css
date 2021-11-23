@@ -22,8 +22,6 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-  .m-header-top__img {
-    margin-right: 7px; }
   .m-header-top__text {
     display: inline-block;
     font-size: 18px;
@@ -34,6 +32,17 @@
     font-size: 24px; }
   .m-header-top__column:last-child .m-header-top__text {
     margin-right: 15px; }
+
+.fa-phone,
+.fa-phone-volume {
+  margin-right: 7px;
+  color: #fff;
+  font-size: 20px; }
+
+.fa-phone-volume {
+  margin-right: 7px;
+  color: #fff;
+  font-size: 25px; }
 
 .fab.fa-pinterest-p,
 .fab.fa-twitter,
@@ -230,7 +239,22 @@ nav a.sidenav-trigger {
     text-align: justify;
     color: #fff;
     padding: 30px 25px 25px 25px;
-    border: 2px solid #eaedf2; }
+    border: 2px solid #eaedf2;
+    position: relative; }
+
+.fa-chevron-down {
+  width: 32px;
+  height: 32px;
+  background: #e84c3d;
+  color: #fff;
+  position: absolute;
+  bottom: -16px;
+  right: 30px;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  line-height: 32px;
+  border: 1px solid #fff; }
 
 .footer-bottom {
   background: #4e4e4e;
