@@ -76,12 +76,38 @@
     }
 }
 
+@media (max-width: 1010px) {
+    .footer-top__brand-logo {
+        display: none;
+    }
 
+    .footer-top__inner {
+        display: flex;
+        flex-direction: column-reverse;
 
-.fab {}
+    }
 
-.fa-pinterest-p {}
+    .footer-top__text {
+        margin-bottom: 15px;
+    }
+}
 
-.fa-twitter {}
+@media (max-width: 770px) {
+    .footer-nav {
+        display: none;
+    }
 
-.fa-facebook-f {}
+    .footer-bottom__column {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 540px) {
+    .footer-top {
+        display: none;
+    }
+
+    .footer-bottom {
+        background: #14a85c;
+    }
+}

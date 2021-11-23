@@ -303,11 +303,15 @@ nav,
 
 /* Agreement */
 .agreement {
-    margin-bottom: 0 !important;
+    margin-bottom: 10px !important;
 }
 
 .agreement label {
     padding: 0 !important;
+}
+
+.agreement label {
+    width: 100%;
 }
 
 /* Discount */
@@ -408,8 +412,8 @@ nav,
 
 
 @media (max-width: 1006px) {
-    .checkbox label:last-child {
-        padding-left: 10px;
+    .checkbox .row label:first-child {
+        width: 34% !important;
     }
 
     .checkbox.form-group {
@@ -425,6 +429,15 @@ nav,
 }
 
 @media (max-width: 890px) {
+
+    .checkbox .row label:first-child,
+    .total .row label:first-child {
+        min-width: 265px !important;
+    }
+
+    .checkbox .row label:last-child {
+        min-width: 105px !important;
+    }
 
     .input-item,
     select.input-item {
@@ -445,6 +458,10 @@ nav,
 }
 
 @media (max-width: 600px) {
+    .checkbox label:last-child {
+        padding-left: 10px;
+    }
+
     .m-main {
         &__title {
             font-size: 30px;

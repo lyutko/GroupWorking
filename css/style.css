@@ -177,7 +177,7 @@ nav a.sidenav-trigger {
   nav a.sidenav-trigger {
     display: block; } }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 960px) {
   .m-header-top {
     display: none; } }
 
@@ -247,6 +247,32 @@ nav a.sidenav-trigger {
     font-size: 14px;
     color: #fff;
     text-align: center; }
+
+@media (max-width: 1010px) {
+  .footer-top__brand-logo {
+    display: none; }
+  .footer-top__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse; }
+  .footer-top__text {
+    margin-bottom: 15px; } }
+
+@media (max-width: 770px) {
+  .footer-nav {
+    display: none; }
+  .footer-bottom__column {
+    width: 100% !important; } }
+
+@media (max-width: 540px) {
+  .footer-top {
+    display: none; }
+  .footer-bottom {
+    background: #14a85c; } }
 
 *,
 *::before,
@@ -502,10 +528,13 @@ nav,
 
 /* Agreement */
 .agreement {
-  margin-bottom: 0 !important; }
+  margin-bottom: 10px !important; }
 
 .agreement label {
   padding: 0 !important; }
+
+.agreement label {
+  width: 100%; }
 
 /* Discount */
 .discount {
@@ -594,8 +623,8 @@ nav,
   border: solid 1px #e84c3d; }
 
 @media (max-width: 1006px) {
-  .checkbox label:last-child {
-    padding-left: 10px; }
+  .checkbox .row label:first-child {
+    width: 34% !important; }
   .checkbox.form-group {
     margin-bottom: 0px; }
   .checkbox .error .fa-question {
@@ -605,6 +634,11 @@ nav,
     margin-left: 5px; } }
 
 @media (max-width: 890px) {
+  .checkbox .row label:first-child,
+  .total .row label:first-child {
+    min-width: 265px !important; }
+  .checkbox .row label:last-child {
+    min-width: 105px !important; }
   .input-item,
   select.input-item {
     max-width: 100%;
@@ -618,6 +652,8 @@ nav,
     margin-left: 5px; } }
 
 @media (max-width: 600px) {
+  .checkbox label:last-child {
+    padding-left: 10px; }
   .m-main__title {
     font-size: 30px;
     padding: 30px 0 24px 0; }

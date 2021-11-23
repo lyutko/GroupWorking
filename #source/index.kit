@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
-    <!-- Materialize -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!-- Materialize Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Fontawesome Icons -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+  <!-- Materialize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Materialize Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Fontawesome Icons -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
 </head>
+
 <body>
-    <div class="m-wrapper">
-        <!-- @import "header.kit" -->
-        <div class="m-main">
-          <div class="m-container">
-            <div class="m-main__inner">
-              <h1 class="m-main__title">Order Form</h1>
-              <p class="m-main__text">Confused about the difference in pricing of various writing services? We understand!  Most services charge a set price-per-page, for anything from a high school 5-paragraph essay to a Ph.D. dissertation. This should raise an immediate red flag to you.  No honest and ethical service can do this without using second-rate writers and databases of pre-written papers.</p>
-              <!-- <form action="#" method="get">
+  <div class="m-wrapper">
+    <!-- @import "header.kit" -->
+    <div class="m-main">
+      <div class="m-container">
+        <div class="m-main__inner">
+          <h1 class="m-main__title">Order Form</h1>
+          <p class="m-main__text">Confused about the difference in pricing of various writing services? We understand!
+            Most services charge a set price-per-page, for anything from a high school 5-paragraph essay to a Ph.D.
+            dissertation. This should raise an immediate red flag to you. No honest and ethical service can do this
+            without using second-rate writers and databases of pre-written papers.</p>
+          <!-- <form action="#" method="get">
                 <div class="form-top">
                     <div class="form__title">Personal informations</div>
                     <div class="form__container">
@@ -46,374 +52,405 @@
 
 
 
+          <div class="row">
+            <form action="#" method="get" class="form col s12">
+
+              <!-- FORM-TOP -->
+
               <div class="row">
-                <form action="#" method="get" class="form col s12">
+                <h2 class="form__title">Personal informations</h2>
+              </div>
+              <div class="form-top">
 
-                  <!-- FORM-TOP -->
+                <!-- First Name -->
 
-                  <div class="row">
-                    <h2 class="form__title">Personal informations</h2>
+                <div class="row form-group">
+                  <div class="row col s12">
+                    <label for="first_name" class="label-item col s12 m4 line-height">First Name<span
+                        class="required">&#9913;</span><span class="error"><i
+                          class="fas fa-question"></i></span></label>
+                    <input id="first_name" name="first_name" type="text" class="validate input-item col s12 l9">
                   </div>
-                  <div class="form-top">
+                </div>
 
-                    <!-- First Name -->
+                <!-- Last Name -->
 
-                    <div class="row form-group">
-                      <div class="row col s12">
-                        <label for="first_name" class="label-item col s12 m4 line-height">First Name<span class="required">&#9913;</span><span class="error"><i class="fas fa-question"></i></span></label>
-                        <input id="first_name" name="first_name" type="text" class="validate input-item col s12 l9">
-                      </div>
-                    </div>
-
-                    <!-- Last Name -->
-
-                    <div class="row form-group">
-                      <div class="row col s12">
-                        <label for="last_name" class="label-item col s12 m4 line-height">Last Name<span class="required">&#9913;</span><span class="error"><i class="fas fa-question"></i></span></label>
-                        <input id="last_name" name="last_name" type="text" class="validate input-item col s12 l9">
-                      </div>
-                    </div>
-
-                    <!-- Email -->
-
-                    <div class="row form-group">
-                      <div class="row col s12">
-                        <label for="email" class="label-item col s12 m4 line-height">Email<span class="required">&#9913;</span><span class="error"><i class="fas fa-question"></i></span></label>
-                        <input id="email" name="email" type="email" class="validate input-item col s12 l9">
-                      </div>
-                    </div>
-
-                    <!-- Country code -->
-
-                    <div class="row form-group">
-                      <div class="row col s12">
-                        <label for="country-code" class="label-item col s12 m4 line-height">Country code<span class="required">&#9913;</span><span class="error"><i class="fas fa-question active"></i></span></label>
-                        <select id="country-code" name="country-code" class="input-item col s12 l9" >
-                          <option value="" disabled selected>USA-1</option>
-                          <option value="1">Option 1</option>
-                          <option value="2">Option 2</option>
-                          <option value="3">Option 3</option>
-                        </select>
-                      </div>
-                    </div>
-
-                    <!-- Phone -->
-
-                    <div class="row form-group">
-                      <div class="row col s12">
-                        <label for="phone" class="label-item col s12 m4">Phone<span class="error"><i class="fas fa-question"></i></span></label>
-                        <input id="phone" name="phone" type="tel" class="validate input-item col s12 l9">
-                      </div>
-                    </div>
+                <div class="row form-group">
+                  <div class="row col s12">
+                    <label for="last_name" class="label-item col s12 m4 line-height">Last Name<span
+                        class="required">&#9913;</span><span class="error"><i
+                          class="fas fa-question"></i></span></label>
+                    <input id="last_name" name="last_name" type="text" class="validate input-item col s12 l9">
                   </div>
+                </div>
 
-                  <!-- FORM-BOTTOM -->
+                <!-- Email -->
 
-                  <div class="row">
-                    <h2 class="form__title">Personal informations</h2>
+                <div class="row form-group">
+                  <div class="row col s12">
+                    <label for="email" class="label-item col s12 m4 line-height">Email<span
+                        class="required">&#9913;</span><span class="error"><i
+                          class="fas fa-question"></i></span></label>
+                    <input id="email" name="email" type="email" class="validate input-item col s12 l9">
                   </div>
-                  <div class="form-bottom">
+                </div>
 
-                     <!-- Subject or discipline -->
+                <!-- Country code -->
 
-                    <div class="row form-group">
-                      <div class="row col s12">
-                        <label for="subject-or-discipline" class="label-item col s12 m4">Subject or discipline<span class="error"><i class="fas fa-question active"></i></span></label>
-                        <select id="subject-or-discipline" name="subject-or-discipline" class="input-item col s12 l9" >
-                          <option value="" disabled selected>Pleace select</option>
-                          <option value="1">Option 1</option>
-                          <option value="2">Option 2</option>
-                          <option value="3">Option 3</option>
-                        </select>
-                      </div>
-                    </div>
-
-                      <!-- Title of your paper -->
-
-                    <div class="row form-group">
-                      <div class="row col s12">
-                        <label for="title-paper" class="label-item col s12 m4 line-height">Title of your paper<span class="required">&#9913;</span><span class="error"><i class="fas fa-question active"></i></span></label>
-                        <input id="title-paper" name="title-paper" type="text" class="validate input-item col s12 l9">
-                      </div>
-                    </div>
-
-                      <!-- Type of assignment -->
-
-                    <div class="row form-group">
-                      <div class="row col s12">
-                        <label for="type-of-assignment" class="label-item col s12 m4">Type of assignment<span class="error"><i class="fas fa-question"></i></span></label>
-                        <select id="type-of-assignment" name="type-of-assignment" class="input-item col s12 l9" >
-                          <option value="" disabled selected>Essay</option>
-                          <option value="1">Option 1</option>
-                          <option value="2">Option 2</option>
-                          <option value="3">Option 3</option>
-                        </select>
-                      </div>
-                    </div>
-
-                      <!-- Urgency -->
-
-                    <div class="row form-group">
-                      <div class="row col s12">
-                        <label for="urgency" class="label-item col s12 m4">Urgency<span class="error"><i class="fas fa-question active"></i></span></label>
-                        <select id="urgency" name="urgency" class="input-item col s12 l9" >
-                          <option value="" disabled selected>11 days</option>
-                          <option value="1">Option 1</option>
-                          <option value="2">Option 2</option>
-                          <option value="3">Option 3</option>
-                        </select>
-                      </div>
-                    </div>
-
-                      <!-- Writer level -->
-
-                    <div class="row form-group">
-                      <div class="row col s12">
-                        <label for="writer-level" class="label-item col s12 m4">Writer level<span class="error"><i class="fas fa-question active"></i></span></label>
-                        <select id="writer-level" name="writer-level" class="input-item col s12 l9" >
-                          <option value="" disabled selected>High school</option>
-                          <option value="1">Option 1</option>
-                          <option value="2">Option 2</option>
-                          <option value="3">Option 3</option>
-                        </select>
-                      </div>
-                    </div>
-
-                      <!-- Spacing -->
-
-                    <div class="row form-group">
-                      <div class="row col s12">
-                        <label for="spacing" class="label-item col s12 m4">Spacing<span class="error"><i class="fas fa-question"></i></span></label>
-                        <select id="spacing" name="spacing" class="input-item col s12 l9" >
-                          <option value="" disabled selected>Double spaced</option>
-                          <option value="1">Option 1</option>
-                          <option value="2">Option 2</option>
-                          <option value="3">Option 3</option>
-                        </select>
-                      </div>
-                    </div>
-
-                      <!-- Currency -->
-
-                    <div class="row form-group">
-                      <div class="row col s12">
-                        <label for="currency" class="label-item col s12 m4">Currency<span class="error"><i class="fas fa-question"></i></span></label>
-                        <select id="currency" name="currency" class="input-item col s12 l9" >
-                          <option value="" disabled selected>USD</option>
-                          <option value="1">Option 1</option>
-                          <option value="2">Option 2</option>
-                          <option value="3">Option 3</option>
-                        </select>
-                      </div>
-                    </div>
-
-                      <!-- Total (Cost per page) -->
-
-                    <div class="row form-group form-group_margin">
-                      <div class="row col s12">
-                        <label for="cost-per-page" class="label-item col s4 line-height">Cost per page</label>
-                        <span id="cost-per-page" name="cost-per-page" class="total col s8">12.99 USD</span>
-                      </div>
-                    </div>
-
-                      <!-- Number of pages -->
-
-                    <div class="row form-group">
-                      <div class="row col s12">
-                        <label for="number-of-pages" class="label-item col s12 m4">Number of pages<span class="error"><i class="fas fa-question active"></i></span></label>
-                        <select id="number-of-pages" name="number-of-pages" class="input-item col s12 l8" >
-                          <option value="" disabled selected>1</option>
-                          <option value="1">Option 1</option>
-                          <option value="2">Option 2</option>
-                          <option value="3">Option 3</option>
-                        </select>
-                      </div>
-                    </div>
-
-                    <!-- Checkbox ()-->
-
-                    <div class="row form-group checkbox">
-                      <div class="row col s12">
-                        <label for="one-page-summary" class="label-item col s12 l4 line-height">1-page summary of your paper<span class="error"><i class="fas fa-question active"></i></span></label>
-                        <label class="col s12 l8">
-                          <input id="one-page-summary" name="one-page-summary" class="filled-in"  type="checkbox" />
-                          <span class="checkbox__text">12.99 USD</span>
-                        </label>
-                      </div>
-                    </div>
-
-                    <div class="row form-group checkbox">
-                      <div class="row col s12">
-                        <label for="draft" class="label-item col s12 l4 line-height">Draft of your paper<span class="error"><i class="fas fa-question active"></i></span></label>
-                        <label class="col s12 l8">
-                          <input id="draft" name="draft" class="filled-in"  type="checkbox" />
-                          <span class="checkbox__text">6.99 USD</span>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="row form-group checkbox">
-                      <div class="row col s12">
-                        <label for="speaker-notes" class="label-item col s12 l4 line-height">Speaker notes<span class="error"><i class="fas fa-question active"></i></span></label>
-                        <label class="col s12 l8">
-                          <input id="speaker-notes" name="speaker-notes" class="filled-in"  type="checkbox" />
-                          <span class="checkbox__text">6.99 USD</span>
-                        </label>
-                      </div>
-                    </div>
-
-                        <!-- Style -->
-
-                    <div class="row form-group">
-                      <div class="row col s12">
-                        <label for="style" class="label-item col s12 m4">Style<span class="error"><i class="fas fa-question"></i></span></label>
-                        <select id="style" name="style" class="input-item col s12 l9" >
-                          <option value="" disabled selected>APA</option>
-                          <option value="1">Option 1</option>
-                          <option value="2">Option 2</option>
-                          <option value="3">Option 3</option>
-                        </select>
-                      </div>
-                    </div>
-
-                      <!-- Radio buttons: Number of sources / references -->
-
-                    <div class="row">
-                      <div class="input-field col s12 radio-btns">
-                        <label class="label-item col s12 m4">Number of sources / references<span class="required">&#9913;</span></label>
-                        <div class="input-item col s12 l9">
-                          <label>
-                            <input class="with-gap" name="group1" type="radio"  />
-                            <span class="radio-btns__text" >US writer</span>
-                          </label>
-                          <label>
-                            <input class="with-gap" name="group1" type="radio"  />
-                            <span class="radio-btns__text">UK writer (+5% to the order total)</span>
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Total -->
-
-                    <div class="row form-group form-group_margin">
-                      <div class="row col s12">
-                        <label for="total-without-discount" class="label-item col s4 line-height">Total without discount</label>
-                        <span id="total-without-discount" name="total-without-discount" class="total col s8">12.99 USD</span>
-                      </div>
-                    </div>
-
-
-                      <!-- Textarea: Your paper instructions -->
-
-                    <div class="row form-group textarea">
-                      <div class="row col s12">
-                        <label for="paper-instructions" class="label-item col s12 m4 line-height">Your paper instructions<span class="required">&#9913;</span></label>
-                        <textarea id="paper-instructions" name="paper-instructions" class="materialize-textarea input input-item col s12 l9"></textarea>
-                      </div>
-                    </div>
-
-                      <!-- File: Attachment -->
-
-                    <div class="row file">
-                      <div class="file-field input-field col s12">
-                        <label for="attachment" class="label-item col s4 line-height">Attachment</label>
-                        <div class="col s3">
-                          <div class="btn col s3 green-btn">
-                            <span>Add file</span>
-                            <input type="file" id="attachment" name="attachment">
-                          </div>
-                        </div>  
-                      </div>
-                    </div>
-
-
-                      <!-- Agreements -->
-
-                    <div class="row form-group checkbox agreement">
-                      <div class="row col s12">
-                        <label class="col s12 l8 offset-l4">
-                          <input id="call-agreement" name="call-agreement" class="filled-in"  type="checkbox" />
-                          <span class="checkbox__text">I agree to receive phone calls from you at night in case of emergency</span>
-                        </label>
-                      </div>
-                    </div>
-
-                    <div class="row form-group checkbox agreement">
-                      <div class="row col s12">
-                        <label class="col s12 l8 offset-l4">
-                          <input id="email-agreement" name="email-agreement" class="filled-in"  type="checkbox" />
-                          <span class="checkbox__text">Email me about custom writing service and other product related updates</span>
-                        </label>
-                      </div>
-                    </div>
-          
-                      <!-- Discount code -->
-                    <div class="row form-group discount">
-                      <div class="row col s12">
-                        <label for="discount" class="label-item col m12 l4 line-height">Discount code</label>
-                        <input id="discount" name="discount" type="text" class="validate input-item col s10 l6">
-                        <div class="btn col s2 green-btn">
-                          <span>Apply discount</span>
-                          <input type="button" id="attachment" name="attachment">
-                        </div>
-                      </div>
-                    </div>
-
-                      <!-- Preferred writer's ID -->
-
-
-                    <div class="row form-group writer">
-                      <div class="row col s12">
-                        <label class="label-item col s12 l4 line-height">Preferred writer's ID</label>
-                        <input id="writer" name="writer" type="text" class="validate input-item col s12 l8">
-                        <div class="col s2 offset-s3">
-                          <div class="btn green-btn">
-                            <span><i class="fas fa-plus"></i> Add writer</span>
-                            <input type="button" id="attachment" name="attachment">
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                     <!-- Grand -->
-
-                    <div class="row grand">
-                      <div class="col s12 l8 offset-l4">
-                          <p class="grand__text checkbox__text">Disclaimer: the service provided is meant to assist you by providing a guideline.<br>
-                          The product provided is intended to be used for research or study purposes.</p>
-                          <p class="grand__title col s12">Grand total price: <span class="grand__total">20.46 USD</span></p>
-                          <button class="btn grand__btn col s12" type="submit" name="action">Order now</button>
-                      </div>
-                    </div>
+                <div class="row form-group">
+                  <div class="row col s12">
+                    <label for="country-code" class="label-item col s12 m4 line-height">Country code<span
+                        class="required">&#9913;</span><span class="error"><i
+                          class="fas fa-question active"></i></span></label>
+                    <select id="country-code" name="country-code" class="input-item col s12 l9">
+                      <option value="" disabled selected>USA-1</option>
+                      <option value="1">Option 1</option>
+                      <option value="2">Option 2</option>
+                      <option value="3">Option 3</option>
+                    </select>
                   </div>
-                </form>
+                </div>
+
+                <!-- Phone -->
+
+                <div class="row form-group">
+                  <div class="row col s12">
+                    <label for="phone" class="label-item col s12 m4">Phone<span class="error"><i
+                          class="fas fa-question"></i></span></label>
+                    <input id="phone" name="phone" type="tel" class="validate input-item col s12 l9">
+                  </div>
+                </div>
               </div>
 
+              <!-- FORM-BOTTOM -->
+
+              <div class="row">
+                <h2 class="form__title">Personal informations</h2>
+              </div>
+              <div class="form-bottom">
+
+                <!-- Subject or discipline -->
+
+                <div class="row form-group">
+                  <div class="row col s12">
+                    <label for="subject-or-discipline" class="label-item col s12 m4">Subject or discipline<span
+                        class="error"><i class="fas fa-question active"></i></span></label>
+                    <select id="subject-or-discipline" name="subject-or-discipline" class="input-item col s12 l9">
+                      <option value="" disabled selected>Pleace select</option>
+                      <option value="1">Option 1</option>
+                      <option value="2">Option 2</option>
+                      <option value="3">Option 3</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Title of your paper -->
+
+                <div class="row form-group">
+                  <div class="row col s12">
+                    <label for="title-paper" class="label-item col s12 m4 line-height">Title of your paper<span
+                        class="required">&#9913;</span><span class="error"><i
+                          class="fas fa-question active"></i></span></label>
+                    <input id="title-paper" name="title-paper" type="text" class="validate input-item col s12 l9">
+                  </div>
+                </div>
+
+                <!-- Type of assignment -->
+
+                <div class="row form-group">
+                  <div class="row col s12">
+                    <label for="type-of-assignment" class="label-item col s12 m4">Type of assignment<span
+                        class="error"><i class="fas fa-question"></i></span></label>
+                    <select id="type-of-assignment" name="type-of-assignment" class="input-item col s12 l9">
+                      <option value="" disabled selected>Essay</option>
+                      <option value="1">Option 1</option>
+                      <option value="2">Option 2</option>
+                      <option value="3">Option 3</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Urgency -->
+
+                <div class="row form-group">
+                  <div class="row col s12">
+                    <label for="urgency" class="label-item col s12 m4">Urgency<span class="error"><i
+                          class="fas fa-question active"></i></span></label>
+                    <select id="urgency" name="urgency" class="input-item col s12 l9">
+                      <option value="" disabled selected>11 days</option>
+                      <option value="1">Option 1</option>
+                      <option value="2">Option 2</option>
+                      <option value="3">Option 3</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Writer level -->
+
+                <div class="row form-group">
+                  <div class="row col s12">
+                    <label for="writer-level" class="label-item col s12 m4">Writer level<span class="error"><i
+                          class="fas fa-question active"></i></span></label>
+                    <select id="writer-level" name="writer-level" class="input-item col s12 l9">
+                      <option value="" disabled selected>High school</option>
+                      <option value="1">Option 1</option>
+                      <option value="2">Option 2</option>
+                      <option value="3">Option 3</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Spacing -->
+
+                <div class="row form-group">
+                  <div class="row col s12">
+                    <label for="spacing" class="label-item col s12 m4">Spacing<span class="error"><i
+                          class="fas fa-question"></i></span></label>
+                    <select id="spacing" name="spacing" class="input-item col s12 l9">
+                      <option value="" disabled selected>Double spaced</option>
+                      <option value="1">Option 1</option>
+                      <option value="2">Option 2</option>
+                      <option value="3">Option 3</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Currency -->
+
+                <div class="row form-group">
+                  <div class="row col s12">
+                    <label for="currency" class="label-item col s12 m4">Currency<span class="error"><i
+                          class="fas fa-question"></i></span></label>
+                    <select id="currency" name="currency" class="input-item col s12 l9">
+                      <option value="" disabled selected>USD</option>
+                      <option value="1">Option 1</option>
+                      <option value="2">Option 2</option>
+                      <option value="3">Option 3</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Total (Cost per page) -->
+
+                <div class="row form-group form-group_margin">
+                  <div class="row col s12">
+                    <label for="cost-per-page" class="label-item col s4 line-height">Cost per page</label>
+                    <span id="cost-per-page" name="cost-per-page" class="total col s8">12.99 USD</span>
+                  </div>
+                </div>
+
+                <!-- Number of pages -->
+
+                <div class="row form-group">
+                  <div class="row col s12">
+                    <label for="number-of-pages" class="label-item col s12 m4">Number of pages<span class="error"><i
+                          class="fas fa-question active"></i></span></label>
+                    <select id="number-of-pages" name="number-of-pages" class="input-item col s12 l8">
+                      <option value="" disabled selected>1</option>
+                      <option value="1">Option 1</option>
+                      <option value="2">Option 2</option>
+                      <option value="3">Option 3</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Checkbox ()-->
+
+                <div class="row form-group checkbox">
+                  <div class="row col s12">
+                    <label for="one-page-summary" class="label-item col m4 line-height">1-page summary of your
+                      paper<span class="error"><i class="fas fa-question active"></i></span></label>
+                    <label class="col m7">
+                      <input id="one-page-summary" name="one-page-summary" class="filled-in" type="checkbox" />
+                      <span class="checkbox__text">12.99 USD</span>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="row form-group checkbox">
+                  <div class="row col s12">
+                    <label for="draft" class="label-item col s12 l4 line-height">Draft of your paper<span
+                        class="error"><i class="fas fa-question active"></i></span></label>
+                    <label class="col s12 l8">
+                      <input id="draft" name="draft" class="filled-in" type="checkbox" />
+                      <span class="checkbox__text">6.99 USD</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="row form-group checkbox">
+                  <div class="row col s12">
+                    <label for="speaker-notes" class="label-item col s12 l4 line-height">Speaker notes<span
+                        class="error"><i class="fas fa-question active"></i></span></label>
+                    <label class="col s12 l8">
+                      <input id="speaker-notes" name="speaker-notes" class="filled-in" type="checkbox" />
+                      <span class="checkbox__text">6.99 USD</span>
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Style -->
+
+                <div class="row form-group">
+                  <div class="row col s12">
+                    <label for="style" class="label-item col s12 m4">Style<span class="error"><i
+                          class="fas fa-question"></i></span></label>
+                    <select id="style" name="style" class="input-item col s12 l9">
+                      <option value="" disabled selected>APA</option>
+                      <option value="1">Option 1</option>
+                      <option value="2">Option 2</option>
+                      <option value="3">Option 3</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Radio buttons: Number of sources / references -->
+
+                <div class="row">
+                  <div class="input-field col s12 radio-btns">
+                    <label class="label-item col s12 m4">Number of sources / references<span
+                        class="required">&#9913;</span></label>
+                    <div class="input-item col s12 l9">
+                      <label>
+                        <input class="with-gap" name="group1" type="radio" checked />
+                        <span class="radio-btns__text">US writer</span>
+                      </label>
+                      <label>
+                        <input class="with-gap" name="group1" type="radio" />
+                        <span class="radio-btns__text">UK writer (+5% to the order total)</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Total -->
+
+                <div class="row form-group form-group_margin total">
+                  <div class="row col s12">
+                    <label for="total-without-discount" class="label-item col s4 line-height">Total without
+                      discount</label>
+                    <span id="total-without-discount" name="total-without-discount" class="total col s8">12.99
+                      USD</span>
+                  </div>
+                </div>
 
 
+                <!-- Textarea: Your paper instructions -->
 
-            </div>
+                <div class="row form-group textarea">
+                  <div class="row col s12">
+                    <label for="paper-instructions" class="label-item col s12 m4 line-height">Your paper
+                      instructions<span class="required">&#9913;</span></label>
+                    <textarea id="paper-instructions" name="paper-instructions"
+                      class="materialize-textarea input input-item col s12 l9"></textarea>
+                  </div>
+                </div>
+
+                <!-- File: Attachment -->
+
+                <div class="row file">
+                  <div class="file-field input-field col s12">
+                    <label for="attachment" class="label-item col s4 line-height">Attachment</label>
+                    <div class="col s3">
+                      <div class="btn col s3 green-btn">
+                        <span>Add file</span>
+                        <input type="file" id="attachment" name="attachment">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <!-- Agreements -->
+
+                <div class="row form-group agreement">
+                  <div class="row col s12">
+                    <label class="col s12 l8 offset-l4">
+                      <input id="call-agreement" name="call-agreement" class="filled-in" type="checkbox" />
+                      <span class="checkbox__text">I agree to receive phone calls from you at night in case of
+                        emergency</span>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="row form-group agreement">
+                  <div class="row col s12">
+                    <label class="col s12 l8 offset-l4">
+                      <input id="email-agreement" name="email-agreement" class="filled-in" type="checkbox" />
+                      <span class="checkbox__text">Email me about custom writing service and other product related
+                        updates</span>
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Discount code -->
+                <div class="row form-group discount">
+                  <div class="row col s12">
+                    <label for="discount" class="label-item col m12 l4 line-height">Discount code</label>
+                    <input id="discount" name="discount" type="text" class="validate input-item col s10 l6">
+                    <div class="btn col s2 green-btn">
+                      <span>Apply discount</span>
+                      <input type="button" id="attachment" name="attachment">
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Preferred writer's ID -->
+
+
+                <div class="row form-group writer">
+                  <div class="row col s12">
+                    <label class="label-item col s12 l4 line-height">Preferred writer's ID</label>
+                    <input id="writer" name="writer" type="text" class="validate input-item col s12 l8">
+                    <div class="col s2 offset-s3">
+                      <div class="btn green-btn">
+                        <span><i class="fas fa-plus"></i> Add writer</span>
+                        <input type="button" id="attachment" name="attachment">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Grand -->
+
+                <div class="row grand">
+                  <div class="col s12 l8 offset-l4">
+                    <p class="grand__text checkbox__text">Disclaimer: the service provided is meant to assist you by
+                      providing a guideline.<br>
+                      The product provided is intended to be used for research or study purposes.</p>
+                    <p class="grand__title col s12">Grand total price: <span class="grand__total">20.46 USD</span></p>
+                    <button class="btn grand__btn col s12" type="submit" name="action">Order now</button>
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
+
+
+
+
         </div>
-        <!-- @import "footer.kit" -->
+      </div>
     </div>
+    <!-- @import "footer.kit" -->
+  </div>
 
-    <!-- Bootstrap -->
+  <!-- Bootstrap -->
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> -->
 
-    <!-- Jquery -->
+  <!-- Jquery -->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
-    <!-- Materialize -->
+  <!-- Materialize -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-        $(document).ready(function(){
-          $('.sidenav').sidenav();
-        });
-      </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+    });
+  </script>
 </body>
+
 </html>
