@@ -126,10 +126,6 @@ h2 {
     font-size: 16px;
 }
 
-.div-icon {
-    background-color: #86EB8F;
-}
-
 .div-grei-icon {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
@@ -138,6 +134,14 @@ h2 {
     color: #4C454A;
     text-transform: uppercase;
     font-weight: 500;
+}
+
+.div-icon {
+    background-color: #86EB8F;
+}
+
+.div-icon:hover {
+    opacity: 0.9;
 }
 
 .h2-container3 {
@@ -222,4 +226,59 @@ footer {
 .btn-position {
     position: relative !important;
     z-index: 1;
+}
+
+@media (min-width: 480px) and (max-width: 2560px ) {
+
+    .screen-mobil {
+        display: none;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .screen-pc {
+        display: none;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .screen-pc {
+        display: none;
+    }
+}
+
+.mobil-offer {
+    background-color: #86EB8F;
+}
+
+.mob-img-left {
+    float: left;
+}
+
+.mob-img-right {
+    float: right;
+}
+
+.mob-h1 {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    line-height: 30px;
+    top: 120px;
+}
+
+.mob-sub-h1 {
+    font-size: 20px;
+    margin: 100px 10px 10px 10px;
+    font-weight: 400;
+    color: white;
+}
+
+.carousel-inner {
+    background-color: #86EB8F;
+    padding: 75px 0px 75px 0px;
 }
