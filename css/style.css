@@ -177,6 +177,129 @@
     z-index: 10;
 }
 
+@media (max-width: 1400px){
+    .img_boy img{
+        right: 0;
+    }
+}
+@media (max-width: 1280px) {
+    .footer_logo:after {
+        content: "";
+        display: block;
+        background: url(../img/footer_after.png) no-repeat center;
+        position: absolute;
+        bottom: -186px;
+        right: -253px;
+        width: 368px;
+        height: 178px;
+        background-size: contain;
+        z-index: 10;
+    }
+    .img_boy img{
+        right: -75px;
+    }
+}
+@media (max-width: 1200px) {
+    .footer_logo:after{
+        content: "";
+        display: none;
+    }
+    .footer_logo:before{
+        content: "";
+        display: none;
+    }
+    .navbar-brand:after {
+        content: "";
+        display: none;
+    }
+    .navbar-brand:before {
+        content: "";
+        display: none;
+    }
+    .img_boy img{
+        right: 0;
+    }
+    .tex-color-white{
+        font-size: .8rem;
+    }
+    .navbar-nav a {
+        font-size: .8rem;
+        text-align: center;
+    }
+
+
+}
+@media (max-width: 990px){
+    .icon_header{
+        display: none;
+    }
+    .tex-color-white .fs-5{
+        font-size: 1rem!important;
+    }
+    .img_boy, .img_books_lamp{
+        display: none!important;
+    }
+    .navbar-toggler{
+        width: 100px;
+    }
+    .navbar-toggler .navbar-toggler-icon{
+        height: 10px;
+        width: 100%;
+        background: #000;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+    .navbar-nav a.active:after {
+        content: "";
+        display: block;
+        height: 2px;
+        background: #e84c3d;
+        width: 150px;
+        position: relative;
+        bottom: -5px;
+        margin: 0 auto;
+    }
+
+}
+@media (max-width: 768px){
+    .top-line, .invisible-sm{
+        display: none!important;
+    }
+    .bg_silver{
+        background: #14A85C!important;
+    }
+}
+@media (max-width: 520px){
+    .navbar-toggler{
+        width: 90px;
+    }
+    .navbar-toggler .navbar-toggler-icon{
+        height: 8px;
+        width: 100%;
+        background: #000;
+    }
+    .navbar-brand{
+        width: 200px;
+    }
+}
+@media (max-width: 380px){
+    .navbar-toggler{
+        width: 70px;
+    }
+    .navbar-toggler .navbar-toggler-icon{
+        height: 7px;
+        width: 100%;
+        background: #000;
+    }
+    .navbar-brand{
+        width: 150px;
+    }
+}
+
+
 
 @font-face {
 font-family: "montserrat";
