@@ -1,0 +1,109 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    font-size: 10px;
+}
+
+.logo {
+    margin-left: 100px;
+    background: url(-Templates-/Samples/full-logo.png);
+}
+
+.name {
+    text-align: center;
+    height: 65px;
+}
+
+h4 {
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    line-height: 60px !important;
+    color: white;
+}
+
+li a:nth-child(1) {
+    color: black;
+}
+
+.margin {
+    margin: 30px;
+}
+
+.info-block {
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 601px) {
+
+    nav,
+    nav .nav-wrapper i,
+    nav a.sidenav-trigger,
+    nav a.sidenav-trigger i {
+        line-height: 80px !important;
+    }
+}
+
+.row {
+    margin-bottom: 0px !important;
+}
+
+.flex {
+    display: flex;
+}
+
+.img {
+    margin-left: 75px;
+}
+
+.actives {
+    color: red !important;
+    text-decoration: underline;
+}
+
+li {
+    text-decoration: none !important;
+}
+
+p {
+    color: white;
+}
+
+img {
+    object-fit: contain;
+}
+
+tr:nth-child(2n+1) {
+    background-color: rgb(214, 212, 212);
+}
+
+.grey-bg {
+    background-color: rgb(56, 56, 56);
+}
+
+@media (max-width: 601px) {
+    .orange-bg {
+        background-color: orange;
+    }
+
+    .border-top {
+        border-top: 2px dashed black;
+    }
+
+    tr:nth-child(2n+1) {
+        background-color: rgb(214, 212, 212);
+    }
+
+    .green-bg {
+        background-color: rgba(50, 160, 50, 0.856);
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
+.join-us {
+    line-height: 70px;
+}
