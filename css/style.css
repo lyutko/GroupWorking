@@ -1,0 +1,105 @@
+.nav-contact {
+    background-color: #14A85C;
+    width: 100% !important;
+}
+
+.toll::before {
+    content: url(/img/icon_phone.png);
+    display: inline-block;
+    padding: 6px 10px 10px 10px;
+    position: relative;
+    top: 5px;
+
+}
+
+.call::before {
+    content: url(/img/icon_phone_2.png);
+    display: inline-block;
+    padding: 4px 7px 10px 50px;
+    position: relative;
+    top: 5px;
+}
+
+.nav-link {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #164916;
+}
+.login{
+       background-color: #86ea8F;
+       width: 100% !important;
+       text-transform: uppercase;
+       height: 100px;
+}       
+      .imgerrow{
+          padding-right: 15px;
+      }
+      
+
+.header-line{
+    top: -105px;
+    left: -146px;
+}
+.loginheader{
+    background-color:#14A85C;
+   
+}
+
+.registration{
+    background-color:#86ea8F;
+    max-width: 450px;
+}
+
+.card-footer{
+   border: none;
+  
+
+
+}
+
+footer {
+    
+    background-color: #14A85C;
+   
+
+}
+
+.silver {
+    background-color: #4E4E4E;
+}
+
+.footer-line {
+    position: absolute;
+    top: -110px;
+    left: -210px;
+}
+
+.p-img-arrow {
+    text-align: justify;
+}
+
+.p-img-arrow::after {
+    content: url(/img/footer_arrow1.png);
+    position: absolute;
+    bottom: -25px;
+    right: 20px;
+}
+
+.foot-logo {
+    background-color: #CCD3DD;
+}
+
+.foot-nav {
+    position: relative;
+    z-index: 1;
+}
+
+.foot-copyright {
+    margin: 0 auto;
+    color: white;
+}
+
+.btn-position {
+    position: relative !important;
+    z-index: 1;
+}
