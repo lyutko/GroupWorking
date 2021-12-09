@@ -1,0 +1,127 @@
+.footer-top {
+    background: #14a85c;
+    min-height: 210px;
+    padding: 23px 0;
+
+    &__inner {
+        display: flex;
+    }
+
+    &__column:first-child {
+        max-width: 315px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__column:last-child {
+        max-width: 885px;
+        width: 100%;
+    }
+
+    &__brand-logo {
+        position: relative;
+        height: 103px;
+
+        a {
+            position: absolute;
+            top: -122px;
+            left: -210px;
+            z-index: 1;
+        }
+
+    }
+
+    &__info {
+        a {
+            font-size: 14px;
+            color: #fff;
+            z-index: 2;
+            display: block;
+        }
+    }
+
+    &__tel {}
+
+    &__mail {}
+
+    &__text {
+        font-size: 11.5px;
+        font-weight: 300;
+        line-height: 1.52;
+        text-align: justify;
+        color: #fff;
+        padding: 30px 25px 25px 25px;
+        border: 2px solid #eaedf2;
+        position: relative;
+    }
+}
+
+.fa-chevron-down {
+    width: 32px;
+    height: 32px;
+    background: #e84c3d;
+    color: #fff;
+    position: absolute;
+    bottom: -16px;
+    right: 30px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    line-height: 32px;
+    border: 1px solid #fff;
+}
+
+
+.footer-bottom {
+    background: #4e4e4e;
+    height: 70px;
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        line-height: 70px;
+    }
+
+    &__copyright {
+        font-size: 14px;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1010px) {
+    .footer-top__brand-logo {
+        display: none;
+    }
+
+    .footer-top__inner {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .footer-top__text {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 770px) {
+    .footer-nav {
+        display: none;
+    }
+
+    .footer-bottom__column {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 540px) {
+    .footer-top {
+        display: none;
+    }
+
+    .footer-bottom {
+        background: #14a85c;
+    }
+}
